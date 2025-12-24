@@ -1,8 +1,7 @@
 # Buy-Wisely
 
 
-**Repository:** `Buy-Wisely` — contains `frontend/` (TypeScript/React) and `backend/` (Node/Express TypeScript) folders. citeturn0view0turn2view1
-
+**Repository:** `Buy-Wisely` — contains `frontend/` (React) and `backend/` (Express) folders.
 ---
 
 ## Table of contents
