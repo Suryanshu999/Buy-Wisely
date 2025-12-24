@@ -1,6 +1,5 @@
 # Buy-Wisely
 
-*A clean, full‑stack shopping / price‑comparison starter app (frontend + backend).*
 
 **Repository:** `Buy-Wisely` — contains `frontend/` (TypeScript/React) and `backend/` (Node/Express TypeScript) folders. citeturn0view0turn2view1
 
@@ -21,7 +20,6 @@
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
 
 ---
@@ -29,8 +27,6 @@
 ## About
 
 Buy‑Wisely is a full‑stack project that aims to provide a simple, extensible platform for browsing products and comparing prices. The repo is split into `frontend/` and `backend/` to make local development and deployment straightforward. citeturn0view0
-
-> ⚠️ This README is a generated starting point. If you want, I can customize the commands, `.env` keys, or API docs to exactly match your implementation — tell me which files (for example `backend/package.json`, `frontend/package.json`, or main server file) you'd like me to read and I’ll update the README to match.
 
 ---
 
@@ -210,19 +206,8 @@ Please open issues for bugs or feature requests.
 
 ---
 
-## License
-
-Add a license file (e.g., `MIT`). If you want, I can add an `LICENSE` file and fill it with the MIT text.
-
----
-
 ## Contact
 
 Created by **SuryanshuKushwaha**. For questions or help, open an issue in this repository.
 
 ---
-
-*Generated README — edit to match your exact project structure and scripts. If you want, I can now:*
-
-* *Open and read `package.json` files in `frontend/` and `backend/` and update this README to use the real scripts and required env keys.*
-* *Create a `LICENSE` or `.env.example` file for you.*
