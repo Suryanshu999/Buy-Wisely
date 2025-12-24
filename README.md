@@ -25,18 +25,7 @@
 
 ## About
 
-Buy‑Wisely is a full‑stack project that aims to provide a simple, extensible platform for browsing products and comparing prices. The repo is split into `frontend/` and `backend/` to make local development and deployment straightforward. citeturn0view0
-
----
-
-## Demo / Screenshots
-
-Add screenshots or a demo link here. Example Markdown:
-
-```md
-![Home screen](./assets/screenshots/home.png)
-```
-
+Buy‑Wisely is a full‑stack project that aims to provide a simple, extensible platform for browsing products and comparing prices. The repo is split into `frontend/` and `backend/` to make local development and deployment straightforward.
 ---
 
 ## Features
