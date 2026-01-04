@@ -6,10 +6,7 @@ const cors = require("cors");
 const app = express();
 
 // CORS Configuration
-app.use(cors({
-  origin: process.env.CORS_ORIGIN || "http://localhost:3000",
-  credentials: true
-}));
+app.use(cors());
 
 app.use(express.json());
 
