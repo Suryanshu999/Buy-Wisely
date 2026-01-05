@@ -297,7 +297,7 @@ app.post("/compare-prices", async (req, res) => {
       prices: [],
       website: "Multiple"
     });
-  }try {
+  try {
     // Helper: extract number from price string
     const extractPrice = (str) => {
       if (!str) return 0;
