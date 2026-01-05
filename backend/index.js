@@ -297,10 +297,32 @@ app.post("/compare-prices", async (req, res) => {
       prices: [],
       website: "Multiple"
     });
-  } catch (error) {
-    console.error("Comparison error:", error.message);
-    res.status(500).json({ error: "Could not generate comparison", details: error.message });
-  }
+  }try {
+    // Helper: extract number from price string
+    const extractPrice = (str) => {
+      if (!str) return 0;
+      const m = str.match(/[\d,]+/);
+      return m ? parseInt(m[0].replace(/,/g, '')) : 0;
+    };
+    
+    // Mock prices - in real app would scrape from multiple URLs
+    const prices = [
+      { platform: 'Amazon', price: 13999, available: true },
+      { platform: 'Flipkart', price: 13999, available: true },
+      { platform: 'Snapdeal', price: 14299, available: true }
+    ];
+    
+    res.json({
+      title: productName || 'Product',
+      image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400',
+      prices: prices,
+      website: 'Multiple'
+    });
+      } catch (error) {
+    console.error('Comparison error:', error.message);
+    res.status(500).json({ error: 'Could not generate comparison', details: error.message });
+  
+  
 });
 
 // START SERVER
